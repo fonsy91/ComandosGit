@@ -1,0 +1,44 @@
+TEORIA DE GIT 
+
+-Pagina del curso: https://www.youtube.com/watch?v=qk-GWtcdQek&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=2
+
+-Si quieres iniciar una carpeta con git (sol se hace una vez): git init 
+-Si quieres ver el estado de tus archivos y directorios: git status o git status -s                                   
+-Si quieres hacer un commit y poner el archivo y todos los archivos y directorios en la zona stage: git commit -m "Titulo del concepto"
+-Si quieres Agregar todos los archivos a la zona stage: git add .
+-Si quieres ver los commit que has hecho: git log o git log --oneline
+-Si quieres volver a un commit pasado: git reset --hard <id commit>
+-Si quieres hacer un git add y un commit a la vez: git commit -am "descripcion"
+-Modificar la descripcion de un commit: git commit --amend (saldra editor vim)
+
+-RAMAS O BRANCHS
+-Para crear una rama para pruebas o lo que sea: git branch <nombre de la rama>
+-Para ver las ramas del proyecto: git branch
+-Para moverte a la rama donde quieres estar trabajando: git checkout <nombre de la rama>
+-Si quieres unir es ecir hacer un merge y fusionar a la rama master: 
+    1º: Moverte a la rama master
+    2º: git merge <nombre de la rama que quieres fusionar>
+
+
+
+TEORIA GITHUB 
+
+-Una vez creado el repositorio hay 3 opciones al incio de la creacion nostros en un primer lugar 
+usaremos la segunda opcion subir loq ue tenemos en nuestro ordenador a github:
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/fonsy91/PuebasGit.git
+
+git branch -M main  (solo con la primera y ultima puedes subirlo esta la veremos mas adelante)
+git push -u origin main o master 
+
+-Si quieres editar cosas desde github y traelas a tu maquina usamos: git pull
+-Los tags nos permite espicificar versiones de nuestro proyecto: git tag <nombre identificativo> -m "Version 1"
+y para subir ese tag git push --tags y podras descargar el proyecto en ese momento de dicha version 
+-Si perdieras el proyecto en tu ordendaor con el comando: git clone <https://github.com/fonsy91/PuebasGit.git>
+
+
+
+
+
+
