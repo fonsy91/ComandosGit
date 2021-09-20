@@ -18,6 +18,7 @@ TEORIA DE GIT
 -Si quieres unir es ecir hacer un merge y fusionar a la rama master: 
     1º: Moverte a la rama master
     2º: git merge <nombre de la rama que quieres fusionar>
+-Si quieres eliminar una rama: git branch -d <nombre de la rama>
 
 
 
