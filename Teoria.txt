@@ -60,5 +60,3 @@ mediante push iras añadiendo contenido. Los pasos son los siguientes:
     y viceversa si escribes codigo en github con un sincronizar aparecera en visual 
 
 
-
-
