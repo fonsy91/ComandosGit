@@ -58,5 +58,3 @@ mediante push iras añadiendo contenido. Los pasos son los siguientes:
     3. Se abrira una ventana donde quieres guardar tu proyecto 
     4. Una vez creados los archivos o carpetas con push (insertar) se agregaran a github 
     y viceversa si escribes codigo en github con un sincronizar aparecera en visual 
-
-
