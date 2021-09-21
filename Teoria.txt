@@ -20,12 +20,23 @@ TEORIA DE GIT
     2º: git merge <nombre de la rama que quieres fusionar>
 -Si quieres eliminar una rama: git branch -d <nombre de la rama>
 
+-FORK
+Un fork es una ramificacion de todo el proyecto. Una clonacion es bajarse el proyecto de 
+github, pero si haces un fork se crea una copia identica del proyecto y se crea en github, tambien 
+sirve para poder colaborar con otros trabajadores es decir puedes cambiar codigo y hacer tus propios 
+commit y solicitar un pull request para que pueda ver las modificaciones que has hecho sin que su 
+proyecto se vea alterado. 
+Una vez hecho el fork y el proyecto esta guardado en tus repositorios, puedes hacer una clonacion 
+para bajartelo en local. Copias la URL de code: git clone https://github.com/fonsy91/intro-C.git    
+
+-RAMAS EN GITHUB 
+Video 9 del curso 
 
 
 TEORIA GITHUB 
 
 -Una vez creado el repositorio hay 3 opciones al incio de la creacion nostros en un primer lugar 
-usaremos la segunda opcion subir loq ue tenemos en nuestro ordenador a github:
+usaremos la segunda opcion subir lo que tenemos en nuestro ordenador a github:
 
 …or push an existing repository from the command line
 git remote add origin https://github.com/fonsy91/PuebasGit.git
@@ -38,7 +49,15 @@ git push -u origin main o master
 y para subir ese tag git push --tags y podras descargar el proyecto en ese momento de dicha version 
 -Si perdieras el proyecto en tu ordendaor con el comando: git clone <https://github.com/fonsy91/PuebasGit.git>
 
+-VISUAL STUDIO CODE Y GITHUB 
 
+Si quieres trabajar en remoto desde visual studio y github es decir mientras estas escribiendo codigo 
+mediante push iras añadiendo contenido. Los pasos son los siguientes:
+    1. Crearte un repositorio nuevo y guardar tu direccion de proyecto 
+    2. Ver->paleta de comando->git clone y pegas la direccion 
+    3. Se abrira una ventana donde quieres guardar tu proyecto 
+    4. Una vez creados los archivos o carpetas con push (insertar) se agregaran a github 
+    y viceversa si escribes codigo en github con un sincronizar aparecera en visual 
 
 
 
