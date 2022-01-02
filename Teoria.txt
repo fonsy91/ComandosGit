@@ -3,6 +3,9 @@ TEORIA DE GIT
 -Pagina del curso: https://www.youtube.com/watch?v=qk-GWtcdQek&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=2
 
 -Si quieres iniciar una carpeta con git (sol se hace una vez): git init 
+-Dar nuestras redenciales: 
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
 -Si quieres ver el estado de tus archivos y directorios: git status o git status -s                                   
 -Si quieres hacer un commit y poner el archivo y todos los archivos y directorios en la zona stage: git commit -m "Titulo del concepto"
 -Si quieres Agregar todos los archivos a la zona stage: git add .
