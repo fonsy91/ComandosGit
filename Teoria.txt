@@ -16,7 +16,7 @@ TEORIA DE GIT
 
 -RAMAS O BRANCHS
 -Para crear una rama para pruebas o lo que sea: git branch <nombre de la rama>
--Para ver las ramas del proyecto: git branch
+-Para ver las ramas del proyecto: git branch o git branch -r
 -Para moverte a la rama donde quieres estar trabajando: git checkout <nombre de la rama>
 -Si quieres unir es ecir hacer un merge y fusionar a la rama master: 
     1º: Moverte a la rama master
