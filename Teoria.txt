@@ -3,7 +3,7 @@ TEORIA DE GIT
 -Pagina del curso: https://www.youtube.com/watch?v=qk-GWtcdQek&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=2
 
 -Si quieres iniciar una carpeta con git (sol se hace una vez): git init 
--Dar nuestras redenciales: 
+-Dar nuestras credenciales: 
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
 -Si quieres ver el estado de tus archivos y directorios: git status o git status -s                                   
