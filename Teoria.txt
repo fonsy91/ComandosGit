@@ -16,12 +16,14 @@ TEORIA DE GIT
 
 -RAMAS O BRANCHS
 -Para crear una rama para pruebas o lo que sea: git branch <nombre de la rama>
--Para ver las ramas del proyecto: git branch o git branch -r
+-Si quieres crear una rama y moverte a ella directamente: git checkout -b <NombreRama>
+-Para ver las ramas del proyecto: git branch o git branch -r o git branch -a
 -Para moverte a la rama donde quieres estar trabajando: git checkout <nombre de la rama>
 -Si quieres unir es ecir hacer un merge y fusionar a la rama master: 
     1º: Moverte a la rama master
     2º: git merge <nombre de la rama que quieres fusionar>
 -Si quieres eliminar una rama: git branch -d <nombre de la rama>
+
 
 -FORK
 Un fork es una ramificacion de todo el proyecto. Una clonacion es bajarse el proyecto de 
