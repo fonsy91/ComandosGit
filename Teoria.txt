@@ -25,7 +25,7 @@ TEORIA DE GIT
  -Otra manera de hacer un merge es con rebase: 
     1º Desde tu rama: git rebase <rama que quieres fusionar>
 -Si quieres eliminar una rama: git branch -d <nombre de la rama>
-
+-Si quieres volver a donde estabas y quitar todos los cambios: git restore *
 
 -FORK
 Un fork es una ramificacion de todo el proyecto. Una clonacion es bajarse el proyecto de 
