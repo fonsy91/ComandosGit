@@ -26,6 +26,10 @@ TEORIA DE GIT
     1º Desde tu rama: git rebase <rama que quieres fusionar>
 -Si quieres eliminar una rama: git branch -d <nombre de la rama>
 -Si quieres volver a donde estabas y quitar todos los cambios: git restore *
+-Si quieres hacer un pull request: 
+    -Identificamos el nombre del repositorio remote: git remote 
+    -Enviamos los cambios: git push origin <tu rama>
+    -En Github aceptas el pull request o no
 
 -FORK
 Un fork es una ramificacion de todo el proyecto. Una clonacion es bajarse el proyecto de 
